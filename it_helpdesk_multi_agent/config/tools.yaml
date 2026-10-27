@@ -1,0 +1,20 @@
+tools:
+  - name: knowledge_search
+    description: Search the local IT support resolution dataset.
+    version: "1.0"
+    approval_required: false
+    parameters:
+      query: string
+  - name: check_access
+    description: Return mock account and access status.
+    version: "1.0"
+    approval_required: false
+    parameters:
+      username: string
+  - name: create_ticket
+    description: Create a mock IT support ticket.
+    version: "1.0"
+    approval_required: true
+    parameters:
+      summary: string
+      category: string

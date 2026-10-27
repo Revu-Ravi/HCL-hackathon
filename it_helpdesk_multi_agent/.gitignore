@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+sessions.jsonl
+
+.env
+.env.*
+
+# Local database and secrets
+chroma_db/
+.env
+.env.*
